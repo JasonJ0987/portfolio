@@ -43,7 +43,7 @@ const About = () => {
         variants={fadeIn("","",0.1,1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Such a good developer, I've been told I'm the best wow amazing.
+        I am well versed in Python and JavaScript languages which I use to create applications in frameworks such as React or Django. Software engineering is an exciting world as there are always so many new techs to learn at all times and I love being able to take in new skills and incorporate it for my projects.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
