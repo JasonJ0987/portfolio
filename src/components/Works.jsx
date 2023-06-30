@@ -1,7 +1,7 @@
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { github } from "../assets";
+import { gitlab } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 //change projects to be personal
@@ -32,7 +32,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src={github}
+                src={gitlab}
                 alt="github"
                 className="w-1/2 h-1/2 object-contain"
               />

@@ -3,7 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+import gitlab from "./gitlab.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import jjlogo from "./jjlogo.png";
@@ -28,6 +28,8 @@ import boxeoffice from "./company/boxeoffice.png"
 import question from "./company/question.png"
 
 import carrent from "./carrent.png";
+import iww from "./IWW.png";
+import wnd from "./WND.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -38,7 +40,7 @@ export {
   creator,
   mobile,
   web,
-  github,
+  gitlab,
   menu,
   close,
   css,
@@ -59,6 +61,8 @@ export {
   boxeoffice,
   question,
   carrent,
+  iww,
+  wnd,
   jobit,
   tripguide,
 };

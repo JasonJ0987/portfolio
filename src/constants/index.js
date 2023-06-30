@@ -18,9 +18,8 @@ import {
     ica,
     boxeoffice,
     question,
-    carrent,
-    jobit,
-    tripguide,
+    iww,
+    wnd,
     threejs,
   } from "../assets";
 
@@ -104,10 +103,6 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
-      icon: git,
-    },
-    {
       name: "docker",
       icon: docker,
     },
@@ -179,9 +174,9 @@ import {
 
   const projects = [
     {
-      name: "Car Rent",
+      name: "I Wear Whatevr",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web application that allows users to digitally upload their wardrobe online and coordinate their weekly outfits based on the week's weather forecast.",
       tags: [
         {
           name: "react",
@@ -192,17 +187,17 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: iww,
+      source_code_link: "https://gitlab.com/XanderRubio/clueless",
     },
     {
-      name: "Job IT",
+      name: "Wheels N' Deals",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Online car dealership that can be used to organize vehicle inventory. Technicians can also organize their appointments and salespeople can organize their sales.",
       tags: [
         {
           name: "react",
@@ -213,33 +208,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "django",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: wnd,
+      source_code_link: "https://gitlab.com/JasonJJ98/wheels-n-deals",
     },
   ];
 
